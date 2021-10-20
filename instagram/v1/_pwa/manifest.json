@@ -1,0 +1,27 @@
+{
+  "name":"Instagram",
+  "short_name":"Insta",
+  "description":"Create an account or log in to Instagram - A simple, fun & creative way to capture, edit & share photos, videos &amp; messages with friends & family.",
+  "background_color":"#ffffff",
+  "theme_color":"#ffffff",
+  "display":"standalone",
+  "orientation":"portrait",
+  "start_url":"http://localhost:7070/my-work/clone/instagram/v1/",
+  "icons":[
+    {
+      "src":"144.png",
+      "type":"image/png",
+      "sizes":"144x144"
+    },
+    {
+      "src":"264.png",
+      "type":"image/png",
+      "sizes":"264x264"
+    },
+    {
+      "src":"528.png",
+      "type":"image/png",
+      "sizes":"528x528"
+    }
+  ]
+}

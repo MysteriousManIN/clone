@@ -1,0 +1,45 @@
+@import "http://localhost:7070/my-work/fontfamilies/tf/css?display=swap&family=Euclid+Circular+A:w@400;700";
+
+:root{
+
+    --ff0:"Euclid Circular A", sans-serif;
+
+    --fs-3:8px;
+    --fs-2:10px;
+    --fs-1:12px;
+    --fs0:14px;
+    --fs1:16px;
+    --fs2:18px;
+    --fs3:20px;
+
+    --c_0:#FECA20;
+    --c_1:#FF621D;
+    --c_2:#B800B3;
+    --c_3:#0074CC;
+    --c_4:hsl(0 0% 60%);
+    --c_5:hsl(0 0% 90%);
+    --c_6:hsl(0 0% 95%);
+
+    --c_f:#1f1f1f;
+    --c_w:#ffffff;
+    --c_b:#000000;
+    --c_t:transparent;
+
+    --instaImageSprites1:url(imgs/instaImageSprites1.png);
+    --instaImageSprites2:url(imgs/instaImageSprites2.png);
+    --googlePlay:url(imgs/google-play.svg);
+    --appleStore:url(imgs/apple-store.svg);
+
+}
+
+html{ -webkit-tap-highlight-color:transparent; }
+html::-webkit-scrollbar{ width:4px; height:0px; background-color:transparent; }
+html::-webkit-scrollbar-thumb{ background-image:linear-gradient(var(--c_0), var(--c_1), var(--c_2)); }
+
+body{
+    margin:0;
+    font-family:var(--ff0);
+    font-size:var(--fs0);
+    color:var(--c_f);
+    background-color:var(--c_w);
+}
