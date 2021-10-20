@@ -1,8 +1,8 @@
 "use strict";
 
-import "http://localhost:7070/my-work/offline-file/cdn/google/jQuery/google_jquery.min.js";
-import "http://localhost:7070/my-work/offline-file/cdn/react/v17.0.2/react.development.js";
-import "http://localhost:7070/my-work/offline-file/cdn/react/v17.0.2/react-dom.development.js";
+import "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js";
+import "https://unpkg.com/react@17.0.2/umd/react.development.js";
+import "https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js";
 import "./app.js";
 import { Main, Footer } from "./component.js";
 
