@@ -6,7 +6,7 @@
   "theme_color":"#ffffff",
   "display":"standalone",
   "orientation":"portrait",
-  "start_url":"http://localhost:7070/my-work/clone/instagram/v1/",
+  "start_url":"https://mysteriousman-in.github.io/clone/instagram/v1/",
   "icons":[
     {
       "src":"144.png",
