@@ -1,4 +1,6 @@
-@import "https://vectoricons.com/typefaces/css/?display=swap&family=Google+Sans";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "https://vectoricons.000webhostapp.com/vicons/css/vicons.css";
+@import "https://vectoricons.000webhostapp.com/typefaces/css/?display=swap&family=Google+Sans";
 
 :root{
 
@@ -25,8 +27,8 @@
   --c_b:black;
   --c_t:transparent;
 
-  --google-name-logo:url("https://vectoricons.com/vicons/svg/icon/google/google-name-logo.svg");
-  --mic:url("https://vectoricons.com/vicons/svg/icon/google/mic.svg");
+  --google-name-logo:url("https://vectoricons.000webhostapp.com/vicons/svg/icon/google/google-name-logo.svg");
+  --mic:url("https://vectoricons.000webhostapp.com/vicons/svg/icon/google/mic.svg");
 
   /* --c_0:#444444;
   --c_1:#171717;
