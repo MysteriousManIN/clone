@@ -48,7 +48,7 @@ $(()=>{
   for(let i in GOOGLE_APP.reverse()){
     $("#google_apps").prepend(
       $("<a>", { href:"" }).append(
-        $("<span>").css("background-image", `url(https://vectoricons.com/vicons/svg/icon/google/${GOOGLE_APP[i].icon}.svg)`),
+        $("<span>").css("background-image", `url(https://vectoricons.000webhostapp.com/vicons/svg/icon/google/${GOOGLE_APP[i].icon}.svg)`),
         $("<span>").text(GOOGLE_APP[i].text)
       )
     );
