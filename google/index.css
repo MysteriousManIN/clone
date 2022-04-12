@@ -1,0 +1,491 @@
+@import "main.css";
+
+main{
+  font-family:var(--ff0);
+  font-size:var(--fs0);
+  background-color:var(--c_p);
+  color:var(--c_f);
+}
+
+.block_0{
+  height:calc(100vh - 96px);
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:32px;
+}
+
+.google_doodle{
+  height:90px;
+  width:280px;
+  background-image:var(--google-name-logo);
+  background-position:center;
+  background-size:350px;
+  background-repeat:no-repeat;
+}
+
+.input-block{
+  height:48px;
+  width:600px;
+  padding:8px;
+  border:1px solid var(--c_0);
+  border-radius:48px;
+  box-sizing:border-box;
+
+  position: relative;
+}
+
+.input-block > input{
+  outline:none;
+  width:100%;
+  height:calc(48px - 16px);
+  padding:0 48px;
+  border:none;
+  font-size:var(--fs0);
+  font-family:var(--ff0);
+  background-color:var(--c_t); 
+  box-sizing:border-box;
+}
+
+.input-block > button{
+  user-select:none;
+  outline:none;
+  cursor:pointer;
+  height:32px;
+  width:32px;
+  padding:6px;
+  font-size:20px;
+  color:var(--c_3);
+  background-color:var(--c_t);
+  border:none;
+  border-radius:50%;
+  box-sizing:border-box;
+
+  position:absolute;
+  top:8px;
+}
+
+.input-block > .search_btn{
+  left:8px;
+}
+
+.input-block > .mic_btn{
+  right:8px;
+  background-image:var(--mic);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:20px;
+}
+
+.btns{
+  text-align:center;
+}
+
+.btns > button{
+  margin-right:8px;
+  user-select:none;
+  outline:none;
+  cursor:pointer;
+  height:36px;
+  width:auto;
+  padding:0 18px;
+  font-family:var(--ff0);
+  font-size:var(--fs0);
+  color:var(--c_f);
+  text-transform:capitalize;
+  border:none;
+  border-radius:36px;
+  background-color:var(--c_0);
+  box-sizing:border-box;
+}
+
+.btns > button:last-child{
+  margin-right:0;
+}
+
+.langs_block{
+  display:flex;
+  flex-direction:row;
+  gap:8px;
+  box-sizing:border-box;
+}
+
+.langs_block > div{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.langs_block > div > a{
+  user-select:none;
+  outline:none;
+  cursor:pointer;
+  text-decoration:none;
+  color:var(--c_s);
+}
+
+footer{
+  background-color:var(--c_1);
+  font-family:var(--ff0);
+  font-size:var(--fs0);
+  color:var(--c_f);
+}
+
+footer > div{
+  min-height:48px;
+  width:100%;
+  padding:8px 48px;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  box-sizing:border-box;
+}
+
+footer > div:nth-child(2){
+  border-top:1px solid var(--c_2);
+}
+
+footer > div:nth-child(2) > div{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  gap:16px;
+}
+
+footer > div:nth-child(2) a{
+  user-select:none;
+  outline:none;
+  cursor: pointer;
+  text-decoration:none;
+  color:var(--c_3);
+}
+
+nav{
+  height:64px;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  padding:8px 48px;
+  font-family:var(--ff0);
+  font-size:var(--fs0);
+  color:var(--c_f);
+  box-sizing:border-box;
+
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:100;
+}
+
+nav > div{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  gap:8px;
+
+  position: relative;
+}
+
+nav > div > a{
+  user-select:none;
+  outline:none;
+  cursor: pointer;
+  padding:8px;
+  text-decoration:none;
+  color:var(--c_3);
+}
+
+nav .icon_btn{
+  user-select:none;
+  outline:none;
+  cursor: pointer;
+  height:36px;
+  width:36px;
+  background-color:var(--c_t);
+  color:var(--c_3);
+  border-radius:36px;
+  border:none;
+  padding:8px;
+  font-size:20px;
+  box-sizing:border-box;
+}
+
+nav .sign_in_btn{
+  user-select:none;
+  cursor:pointer;
+  height:36px;
+  width:auto;
+  background-color:var(--c_s);
+  border-radius:36px;
+  border:none;
+  padding:0 18px;
+  font-family:var(--ff0);
+  font-size:var(--fs0);
+  color:var(--c_w);
+  box-sizing:border-box;
+}
+
+.google_apps_block{
+  width:268px;
+  height:0;
+  padding:0 8px;
+  display:grid;
+  grid-template:repeat(6, 54px) / repeat(4, 54px);
+  grid-gap:12px;
+  place-items:center;
+  background-color:var(--c_p);
+  border-radius:0;
+  border:0px solid var(--c_t);
+  box-shadow:4px 4px 16px 0px hsl(0 0% 0%/ 0%);
+  box-sizing:border-box;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  transition:all 350ms ease-in-out;
+
+  position:absolute;
+  top:50px;
+  right:0px;
+}
+
+.google_apps_block::-webkit-scrollbar{
+  height:0;
+  width:4px;
+  background-color:var(--c_t);
+}
+
+.google_apps_block::-webkit-scrollbar-thumb{
+  background-color:var(--c_0);
+  border-radius:4px;
+}
+
+.google_apps_block:after{
+  display:none;
+  content:"";
+  height:12px;
+  width:16px;
+  background-color:transparent;
+  border-right:8px solid transparent;
+  border-bottom:12px solid var(--c_w);
+  border-left:8px solid transparent;
+  box-sizing:border-box;
+
+  position:absolute;
+  top:-12px;
+  right:94px
+}
+
+.google_apps_block.is_active{
+  height:360px;
+  /* width:268px; */
+  padding:16px 8px;
+  border-radius:4px;
+  border:2px solid var(--c_t);
+  box-shadow:4px 4px 16px 0px hsl(0 0% 0%/ 12%);
+}
+
+.google_apps_block.is_active:after{
+  display:block;
+}
+
+.google_apps_block > a{
+  user-select:none;
+  cursor: pointer;
+  display:block;
+  text-decoration:none;
+  color:var(--c_f);
+  padding:0 4px;
+  border-radius:4px;
+  background-color:var(--c_t);
+  transition:all 350ms ease-in-out;
+}
+
+.google_apps_block > a:hover{
+  background-color:var(--c_1);
+}
+
+.google_apps_block > a > span:first-child{
+  display:block;
+  height:36px;
+  width:36px;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:20px;
+}
+
+.google_apps_block > a > span:last-child{
+  display:block;
+  font-size:var(--fs-2);
+  line-height:18px;
+  text-align:center;
+}
+
+.google_apps_block > div:last-child{
+  grid-area:7/1/8/5;
+}
+
+.google_apps_block > div:last-child > a{
+  user-select:none;
+  cursor: pointer;
+  text-decoration:none;
+  display:block;
+  height:36px;
+  font-size:var(--fs-1);
+  color:var(--c_s);
+  line-height:36px;
+  padding:0 18px;
+  border:1px solid var(--c_s);
+  border-radius:36px;
+  box-sizing:border-box;
+}
+
+.menu_block{
+  height:0;
+  width:200px;
+  padding:0 8px;
+  background-color:var(--c_p);
+  border-radius:0px;
+  box-sizing:border-box;
+  box-shadow:4px 4px 16px 0px hsl(0 0% 0%/ 0%);
+  overflow:hidden;
+  transition:all 350ms ease-in-out;
+
+  position:absolute;
+  top:50px;
+  left:36px;
+  z-index:101;
+}
+
+.menu_block + div{
+  display:none;
+}
+
+.menu_block.is_active{
+  height:384px;
+  padding:16px 8px;
+  border-radius:8px;
+  box-shadow:4px 4px 16px 0px hsl(0 0% 0%/ 12%);
+}
+
+.menu_block > button{
+  user-select:none;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  gap:8px;
+  padding:0;
+  font-family:var(--ff0);
+  border:none;
+  background-color:var(--c_t);
+  color:var(--c_3);
+  text-align:left;
+}
+
+.menu_block > button > span:first-child{
+  display:block;
+  height:32px;
+  font-size:18px;
+  padding:6px 0;
+  box-sizing:border-box;
+}
+
+.menu_block > button > span:last-child{
+  font-size:var(--fs0);
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+
+nav{
+  padding:8px 8px;
+}
+
+nav > div:nth-child(2) > a:first-child{
+  display:none;
+}
+
+main{
+  height:calc(100vh - 87px);
+}
+
+.google_doodle{
+  height:60px;
+  width:200px;
+  background-size:220px;
+}
+
+.input-block{
+  width:calc(100% - 32px);
+}
+
+.btns{
+  display:none;
+}
+
+.langs_block{
+  width:calc(100% - 128px);
+  flex-direction:column;
+  align-items:center;
+  font-size:var(--fs-1);
+}
+
+footer > div{
+  min-height:32px;
+  padding:8px;
+  font-size:var(--fs-1);
+}
+
+footer > div:nth-child(2){
+  flex-direction:column;
+  gap:8px;
+}
+
+.menu_block{
+  height:100vh;
+  width:240px;
+  padding:32px 16px;
+
+  position:fixed;
+  top:0;
+  left:-240px;
+}
+
+.menu_block.is_active{
+  height:100vh;
+  border-radius:0;
+  padding:32px 16px;
+
+  left:0;
+}
+
+.menu_block + div{
+  display:block;
+  height:100vh;
+  width:100%;
+  background-color:hsl(0 0% 0% / 10%);
+  transition:all 0ms ease-in-out;
+
+  position:fixed;
+  top:0;
+  left:-100%;
+  z-index:100;
+}
+
+.menu_block.is_active + div{
+  left:0;
+}
+
+
+
+
+}

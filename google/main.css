@@ -1,0 +1,49 @@
+@import "https://vectoricons.com/typefaces/css/?display=swap&family=Google+Sans";
+
+:root{
+
+  --ff0:"Google Sans";
+
+  --fs-3:8px;
+  --fs-2:10px;
+  --fs-1:12px;
+  --fs0:14px;
+  --fs1:16px;
+  --fs2:18px;
+  --fs3:20px;
+
+  --c_0:hsl(0 0% 90%);
+  --c_1:hsl(0 0% 96%);
+  --c_2:hsl(0 0% 86%);
+  --c_3:hsl(0 0% 40%);
+
+  --c_p:hsl(0 0 100%);
+  --c_s:#4285f4;
+
+  --c_f:hsl(0 0% 12%);
+  --c_w:white;
+  --c_b:black;
+  --c_t:transparent;
+
+  --google-name-logo:url("https://vectoricons.com/vicons/svg/icon/google/google-name-logo.svg");
+  --mic:url("https://vectoricons.com/vicons/svg/icon/google/mic.svg");
+
+  /* --c_0:#444444;
+  --c_1:#171717;
+  --c_2:#343434;
+  --c_3:hsl(0 0% 90%);
+
+  --c_p:#202124;
+  --c_s:#6491db;
+
+  --c_f:hsl(0 0% 90%); */
+
+}
+
+html{
+  -webkit-tap-highlight-color:transparent;
+}
+
+body{
+  margin:0;
+}
